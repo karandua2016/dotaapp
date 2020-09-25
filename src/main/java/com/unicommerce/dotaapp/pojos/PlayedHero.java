@@ -1,8 +1,17 @@
-package pojos;
+/**
+ * @author Karan Dua
+ */
+
+package com.unicommerce.dotaapp.pojos;
 
 import com.fasterxml.jackson.annotation.JsonSetter;
 
-public class Player {
+
+
+/*
+ * Pojo representing a hero played by a user. Also used for Json Deserialization.
+ */
+public class PlayedHero {
 
 	@JsonSetter("hero_id")
 	String heroId;

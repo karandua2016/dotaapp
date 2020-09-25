@@ -1,10 +1,14 @@
-package pojos;
+package com.unicommerce.dotaapp.pojos;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import com.fasterxml.jackson.annotation.JsonSetter;
 
+
+/*
+ * Pojo representing a Hero
+ */
 @JsonIgnoreProperties({"npc_dota_hero_antimage", "primary_attr", "attack_type","roles" ,"legs"})
 @JsonPropertyOrder({"hero_id", "name", "localized_name"})
 public class Hero {
