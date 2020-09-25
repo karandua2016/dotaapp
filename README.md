@@ -8,7 +8,7 @@ Details of the top three heros (most played with) is fetched.
 Java 1.8+
 
 ### How to run?
-Download/copy the jar file - dotaapp.jar from the target directory to your machine and run the following command
+Download/copy the jar file - dotaapp.jar from the target directory to your machine and run the following command, from the location where you copied the jar, using a command prompt console
 
 ```java -jar dotaapp.jar <account_id>```
 
