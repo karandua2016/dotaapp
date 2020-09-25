@@ -36,4 +36,4 @@ Download/copy the jar file - dotaapp.jar from the target directory to your machi
 ```
 
 ### Assumption
-The OpenDOTA API for pulling the most played with Heros, returns results even if you enter a random account id is entered (integer, ofcourse). If the id is not found, it returns a list of all the heros with games played = 0. So, the app assumes that the account id searched exists. 
+The OpenDOTA API for pulling the most played with Heros, returns results even if a random account id is entered (integer, ofcourse). If the id is not found, it returns a list of all the heros with games played = 0. So, the app assumes that the account id searched exists. 
